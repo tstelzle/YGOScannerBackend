@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  ygo_scanner_backend:
+    container_name: ygo_scanner_backend
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - "9000:8080"
